@@ -1,0 +1,27 @@
+# Binaries
+kind.exe
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+/web_wargamer
+
+# Ignore token files and directories
+Jenkins/token/
+*.token
+tokens.txt
+
+# Ignore any files that might contain secrets
+**/secrets/
+*secret*
+*token*
+/Wargame
